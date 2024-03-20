@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1710849907 "main.tex" "main.pdf" "main" 1710849907 2
+["pdflatex"] 1710933050 "main.tex" "main.pdf" "main" 1710933051 2
   "/etc/texmf/web2c/texmf.cnf" 1704117390 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/julia/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.600pk" 1708449225 29452 32d0cc5bad73e44566a5faea56b28230 ""
   "/home/julia/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600pk" 1704117849 45148 9f107a1bab0bb5cb5908848703f071f5 ""
@@ -108,11 +108,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1693172360 40357 c95f5d5e031b5c7040b426833c11f2e0 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1704117847 130486 21bc5e8519b511467dceb304d5a8239d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1710511502 6570106 6ca67315afd7bff241407c86453aabe0 ""
-  "2.4.1.tex" 1710849906 1917 3f6e2bf7d5ba2107f92bf5254f7e21c7 ""
-  "main.aux" 1710849907 1088 2964ca5b81318cca1b8bb0e9c86585ca "pdflatex"
-  "main.out" 1710849907 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1710847110 651 6140a2d3ce85109496d45c87ebfe86ea ""
-  "setup.png" 1710848900 26075 1d9fbbac1d2575c61f21c5b8355faf96 ""
+  "2.4.1.tex" 1710933049 2146 931bf9c31cc09309f736ed2723d7e3b8 ""
+  "main.aux" 1710933051 813 3512cce7f660a2d022f47d863ad94ec8 "pdflatex"
+  "main.out" 1710933051 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1710919848 651 6140a2d3ce85109496d45c87ebfe86ea ""
   (generated)
   "main.aux"
   "main.log"
