@@ -30,7 +30,7 @@
 \newpage
 \begin{figure}[t!]
     \centering
-    \includegraphics[width=10cm,height=3cm]{setup.png}
+    \includegraphics[width=10cm,height=5cm]{setup.png}
     \caption{Схема установки для поределения теплоты испарения}
     \label{fig:setup}
 \end{figure}
@@ -55,18 +55,51 @@
     \end{tabular}
     \caption{Зависимость $P$ от $T$ при охлаждении жидкости}
 \end{table}
-$$\sigma_{P} = 0.5\text{ мм; }\sigma_{T} = 0.01 \text{ K}$$\\\indent
-
 \begin{figure}[h!]
     \centering
-    \begin{figure}{0.45\linewidth}
-        \includegraphics[width=8cm, height=8cm]{simpleplot.png}
+    \begin{subfigure}[t]{0.45\textwidth}
+        \includegraphics[width=10cm]{simpleplot.png}
         \caption{Зависимость $P$ от $T$ при нагревании жидкости}
-    \end{figure}
-    % \hfill
-    \begin{fiure}
-        \includegraphics[width=8cm, height=8cm]{complexplot.png}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.45\textwidth}
+        \includegraphics[width=10cm]{complexplot.png}
         \caption{Зависимоть $\ln(P)$ от $\frac{1}{T}$}
-    \end{fiure}
+    \end{subfigure}
+    \label{fig:plots}
 \end{figure}
+
+\newpage\indent
+Оценим погрешность:
+$$\sigma_{P} = 0.5\text{ мм; }\sigma_{T} = 0.01 \text{ K}$$ 
+\begin{align}
+    \sigma_{L1} = k1 \cdot \sqrt{{\left (\frac{2 R T dT}{P}\right ) }^2 + {\left ( \frac{R T^2 dP}{P^2}\right )}^2} \\[6pt]
+    \sigma_{L2} = \sqrt{(R \ln{P} dT)^2 + {\left ( \frac{R T dP}{P}\right )}^2}
+\end{align}
+
+\begin{table}
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|c|}
+        \hline
+        $T$, K& 296.57 & 300.5 & 302.5 & 304.5 & 307.0 & 311.5\\\hline 
+        $L1(T, P)$, Дж/моль & 45295 & 50588 & 41186 & 50920 & 49309 & 45322\\\hline 
+        $\sigma_{L1}$, Дж/моль & 1271 & 1137 & 826 & 886 & 722 & 506\\\hline
+    \end{tabular}
+    \caption{Молярная теплоемкость и ее погрешность в случае нагревания
+            , определенная по первому графику}
+    \vfill
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        $T$, K& 308.5 & 304.0 & 300.0\\\hline
+        $L1(T, P)$, Дж/моль & 42698 & 50379 & 49042\\\hline
+        $\sigma_{L1}$, Дж/моль & 524 & 806 & 1005\\\hline 
+    \end{tabular}
+    \caption{Молярная теплоемкость и ее погрешность в случае охлаждения, 
+             определенная по первому графику}
+\end{table}
+Найдем значение теплоты парообразования с помощью первого графика:\\
+$L1_{\text{ср}} = 47.103 \pm 1.27$ кДж/моль ($\approx 2\%$)\\\indent
+Значение теплоты парообразования, найденное из второго графика:\\ 
+$L2_{\text{hot}} = 47.85 \pm 0.7$ кДж/моль,  $L2_{\text{cold}} = 47.46 \pm 0.7$ кДж/моль\\\indent
+Табличное значение теплоты парообразования воды: 41.4 кДж/моль
 
