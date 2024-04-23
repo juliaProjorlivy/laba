@@ -63,32 +63,83 @@ $Re = \frac{v r \rho_{\text{ж}}}{\eta} \approx 0.5$. \\
     \end{subfigure}
 \end{figure}
 
-% \section*{Экспериментальные данные}
-%
-%
-% \begin{table}[h]!
-%     \centering
-%     \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
-%         \hline
-%         № & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15\\\hline 
-%         $d$, мм& & &
-%         $\eta(T_1)$ &
-%         $\eta(T_2)$ &
-%         $\eta(T_3)$ &
-%         $\eta(T_4)$ &
-%         $\eta(T_5)$ & 
-%     \end{tabular}
-%     \caption{Зависимоть вязкости от температуры жидкости и диаметра шарика}
-% \end{table}
-%
-% \begin{table}[h!]
-%     \centering
-%     \begin{tabular}{|c|c|c|c|c|c|}
-%         \hline
-%         $T^{\cdot}C$ & $T_1$ & $T_2$ & $T_3$ & $T_4$ & $T_5$\\\hline
-%         $\rho_{\text{ж}}$, г/$\text{см}^3$ &  &  &  &  &
-%     \end{tabular}
-%     \caption{Зависимоть плотности жидкости от температуры}
-% \end{table}
-%
-%
+\newpage
+
+\section*{Экспериментальные данные}
+
+\begin{table}[h!]
+    \centering
+    \caption{Зависимость скорости шариков от температуры}
+    \begin{subtable}[h!]{0.49\textwidth}
+        \begin{tabular}{|c|c|c|c|c|}
+            \hline
+            $d$, мм & 2.1 & 2 & 2 & 2.1\\\hline
+            $\upsilon$, мм/c & 3.03 & 2.98 & 2.99 & 3.01\\\hline
+        \end{tabular}
+    \subcaption{Cкорость шариков при $T_1 = 21.6^{\circ}$C}
+    \end{subtable}
+    \hfill
+    \begin{subtable}[h!]{0.49\textwidth}
+        \begin{tabular}{|c|c|c|c|c|}
+            \hline
+            $d$, мм & 2.02 & 2.06 & 2.02 & 2\\\hline
+            $\upsilon$, мм/c & 3.7 & 4.07 & 4.39 & 4.6\\\hline
+        \end{tabular}
+    \subcaption{Cкорость шариков при $T_2 = 30.4^{\circ}$C}
+    \end{subtable}
+    \vfill
+    \begin{subtable}[h!]{0.49\textwidth}
+        \begin{tabular}{|c|c|c|c|c|}
+            \hline
+            $d$, мм & 2.1 & 2 & 2.12 & 2.1\\\hline
+            $\upsilon$, мм/c & \7.47 & 7.76 & 7.94 & 9.18\\\hline
+        \end{tabular}
+    \subcaption{Cкорость шариков при $T_3 = 40^{\circ}$C}
+    \end{subtable}
+    \hfill
+    \begin{subtable}[h!]{0.49\textwidth}
+        \begin{tabular}{|c|c|c|c|c|}
+            \hline
+            $d$, мм & 2.12 & 2 & 2.02 & 2\\\hline
+            $\upsilon$, мм/c & 15.88 & 16.58 & 17.67 & 18.96\\\hline
+        \end{tabular}
+    \subcaption{Cкорость шариков при $T_4 = 50^{\circ}$C}
+    \end{subtable}
+\end{table}
+
+\begin{figure*}[!h]
+    \centering
+    \begin{minipage}{0.42\textwidth}
+        \includegraphics[height=8cm]{plot.png}
+        \captionof{figure}{График зависимости $ln(\eta) (1/T)$}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.42\textwidth}
+        \centering
+        \begin{tabular}{|c|c|c|c|c|}
+            \hline 
+            $T^{\circ}C$ & 21.6& 30.4& 40& 50\\\hline
+            $\eta$, Па$\cdot$c &1.028 & 0.723 & 0.395 & 0.177\\\hline
+            $\tau$, c$\cdot 10^{-4}$ & 6 & 8 & 16 & 34\\\hline
+            $Re \cdot 10^{-3}$ & 4 & 7 & 27 & 126\\\hline
+            $S$, м$\cdot 10^{-7}$ & 18 & 35 & 130 & 590\\\hline
+            $\rho_{\text{жид}}$, г/см$^3$ & 1256 & 1254 & 1251 & 1248\\\hline
+        \end{tabular}
+        \captionof{table}{Результаты вычислений}
+    \end{minipage}
+\end{figure*}
+Из гарфика $\frac{W}{k} = 5901 \rightarrow W \approx 0.5$ эВ.\\
+
+\subsection*{Результаты и выводы}
+$$\sigma_{\text{t}} = \sqrt{\sigma_{\text{приб}}^2 + \frac{\sum_{i=1}^{n} (t_{\text{i}} - t_{\text{ср}})^2}{(n-1)n}} = 0.69\text{ с ; }
+    \varepsilon_{\upsilon} = \sqrt{\left (\frac{\sigma_{\text{t}}}{t_{\text{min}}}\right )^2 + \left (\frac{\Delta l}{l}\right )^2} = 13.3 \%  $$
+\\
+В ходе эксперимента были вычислены значения коэффициента вязкости 
+глицерина при зарных температурах. Так же можно заметить, что течение в эксперименте 
+можно считать ламинарным, т.к число Рейнольдса оказалось достаточно маленьким ($\sim 10^{-2}$). 
+Помимо этого во всех экспериментах время релаксации, как и путь релаксации намного 
+меньше измеряемых величин, поэтому движение шарика во время измерений можно 
+действительно считать установившимся. 
+
+
+
