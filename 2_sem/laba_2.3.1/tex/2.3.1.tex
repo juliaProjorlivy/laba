@@ -19,21 +19,6 @@
 
 \newpage
 
-% \subsection*{Форвакуумный насос}
-% \subsection*{Диффузионный насос}
-% Действие этого насоса основано на диффузии молекул разряженного воздуха
-% в струю паров масла. Молекулы газа увлекаются струей и не возвращаются назад. 
-% На из место попадают новые и так далее... Таким образом, степень разряженности
-% газа в окрестности струи увеличивается. 
-% \begin{wrapfigure}{i}
-%     \centering
-%     \includegraphics[height=6cm]{oildefusepump.png}
-%     \caption{Схема работы диффузионного насоса}
-% \end{wrapfigure}
-%
-% \subsection*{Термопарный манометр}
-%
-
 \section*{Теоретические сведения}
 \subsection*{Откачка}
 Пусть $W$ - объем газа, удаляемого из сосуда при данном давлении за 
@@ -75,6 +60,38 @@ P - P_{\text{пр}} = (P_0 - P_{\text{пр}})\exp{\left (-\frac{W}{V}t\right )}
     C_{\text{тр}} = \left (\frac{dV}{dt} \right ) = \frac{4}{3}\frac{r^3}{L} \sqrt{\frac{2\pi RT}{\mu}}  
 \end{equation}
 
+\newpage
 
+\subsection*{Экспериментальные данные}
 
+Зная объем трубки между кранами $K_5$ и $K_6$, найдем объемы форвакуумной 
+и высоковакуумной частей ($V_{\text{фв}}$ и $V_{\text{вв}}$): $PV = const$.
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        $V_{56}$, см$^3$ & $V_{\text{фв}}$, см$^3$ & $V_{\text{вв}}$, см$^3$ & $V_{\text{all}}$, см$^3$\\\hline
+        500 & 2151 & 1280 & 3431\\\hline
+    \end{tabular}
+    \caption{Объемы установки}
+\end{table}
 
+Теперь найдем скорость откачки по улучшению вакуума:
+\begin{figure*}[h!]
+    \begin{minipage}{0.5\textwidth}
+        \includegraphics[width=10cm]{plotBetter1.png}
+        \captionof{figure}{$\ln P (t); W = 22.7$ $\frac{\text{см}^3}{c}$}
+    \end{minipage}
+    \begin{minipage}{0.5\textwidth}
+        \includegraphics[width=10cm]{plotBetter2.png}
+        \captionof{figure}{$\ln P (t); W = 21.4$ $\frac{\text{см}^3}{c}$}
+    \end{minipage}
+
+    \begin{minipage}{0.99\textwidth}
+        \centering
+        \includegraphics[width=11cm]{ALLPLOT.png}
+        \captionof{figure}{График зависимости $P \text{ от } t$ при ухудшении
+        и улучшении вакуума}
+    \end{minipage}
+\end{figure*}
+%
