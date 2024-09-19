@@ -1,0 +1,15 @@
+# Fdb version 4
+["pdflatex"] 1725892083.15746 "3.2.2.tex" "3.2.2.pdf" "3.2.2" 1725892083.27224 2
+  "/etc/texmf/web2c/texmf.cnf" 1704117390.62776 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1725567951 9929311 bbb592d9d50dcddb4da8ad5056ee032d ""
+  "3.2.2.aux" 1725631497.45305 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "3.2.2.tex" 1725892082.9747 10087 907fdea6799dfb8929fa8bd9409ef9ee ""
+  (generated)
+  "3.2.2.aux"
+  "3.2.2.log"
+  "3.2.2.pdf"
+  (rewritten before read)
