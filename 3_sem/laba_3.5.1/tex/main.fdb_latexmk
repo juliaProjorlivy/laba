@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1730407233.16381 "main.tex" "main.pdf" "main" 1730407233.6367 2
+["pdflatex"] 1730410074.78157 "main.tex" "main.pdf" "main" 1730410075.27561 2
   "/etc/texmf/web2c/texmf.cnf" 1704117390.62776 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/julia/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.600pk" 1708449225.68676 29452 32d0cc5bad73e44566a5faea56b28230 ""
   "/home/julia/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600pk" 1704117849.61447 45148 9f107a1bab0bb5cb5908848703f071f5 ""
@@ -49,6 +49,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1248133631 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf" 1496785618 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
@@ -130,7 +131,7 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1725567922.99742 130486 21bc5e8519b511467dceb304d5a8239d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1725567951 9929311 bbb592d9d50dcddb4da8ad5056ee032d ""
-  "3.5.1.tex" 1730407233.0273 12793 bee013aa4037921ccdfb7a0c391270a6 ""
+  "3.5.1.tex" 1730410074.34616 12787 c0e0652b28ad391c4781187edce6677e ""
   "images/flactuation.png" 1730397744.99963 18694 5f9945d99c1b986a331e7495b8276ccc ""
   "images/plot1.png" 1730403027.12813 25904 793572fdab1e57ec1971c793f2af2a48 ""
   "images/plot2.png" 1730326041.73331 34435 586fdd0bad8544dddc6d9a4ef3042198 ""
@@ -138,8 +139,8 @@
   "images/plotI_3.png" 1730395682.32131 34440 d1d09a5eccd913912787e37fa5421c9a ""
   "images/plotI_4.png" 1730395559.4063 36066 be6febe11c6212e5bfe561513cd9e663 ""
   "images/plotI_5.png" 1730395118.97113 31620 d0eb34fe8910e8eaffea150f770ffd84 ""
-  "main.aux" 1730407233.5603 1283 e414c9aa864f4dd8d786f42af2dfd2fd "pdflatex"
-  "main.out" 1730407233.4143 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.aux" 1730410075.17816 1522 0284535423517993b93c96d49691a521 "pdflatex"
+  "main.out" 1730410075.02816 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "main.tex" 1730401067.45665 760 25a1069c6dcdbc882fe26a7185562a44 ""
   "setup.png" 1730187847.23117 24217 d9ed2414ce72aaf53db8f6d9037048d8 ""
   (generated)
