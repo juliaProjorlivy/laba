@@ -73,7 +73,7 @@
 \begin{align}
     \frac{S_1}{S_0} &= \frac{L_{max} - L_{min}}{L_{min}}\\
     L &= L_min + \frac{L_{max} - L_{min}}{n}\\ 
-    \frac{L_{max} - L}{L - L_{min}} &= (\pi a h \mu_0 \sigma \nu)^2
+    \frac{L_{max} - L_{min}}{L - L_{min}} &= (\pi a h \mu_0 \sigma \nu)^2 \label{eq:Lminmax}
 \end{align}
 
 \section*{Экспериментальная установка}
@@ -244,5 +244,34 @@
         \captionof{figure}{Гарфик зависимости индуктивности от частоты}
     \end{minipage}
 \end{figure}
+
+\indent Теперь построим график зависимости $\frac{L_{max} - L_{min}}{L - L_{min}}$ от $\nu^2$. Аппроксимируя получанный график к прямой, проходящей через начало координат, по формуле $\ref{eq:Lminmax}$, нашли проводимость материала экрана $\sigma = (4.4\pm 0.2)\cdot 10^{7}$ См/м.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=12cm]{images/plot5.png}
+    \caption{Гарфик зависимости $\frac{L_{max} - L_{min}}{L - L_{min}}$ от $\nu^2$}
+\end{figure}
+
+
+\section*{Результаты и выводы}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=12cm]{images/plot6.png}
+    \caption{Гарфик зависимости $|H_1| / |H_2|$ от $\nu$}
+\end{figure}
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|p{3cm}|p{3.8cm}|p{4.2cm}|p{4cm}|c|}
+        \hline
+        \multicolumn{4}{|c|}{$\sigma$, См/м$\cdot 10^7$} & \multirow{2}{*}{$\xi_0$, Гц/Ом} \\
+        При низких частотах & По фазовому сдвигу в средних частотах &  По фазовуму сдвигу в высоких частотах & По изменению индуктивности катушки & \\\hline
+        $4.390\pm0.002$ & $5\pm1.5$ & $4.9\pm0.5$ & $4.4\pm0.2$ & $71.69\pm0.03$\\\hline
+    \end{tabular}
+    \caption{Таблица результатов вычислений}
+\end{table}
+
 
 

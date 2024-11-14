@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1731602567.35894 "main.tex" "main.pdf" "main" 1731602567.80194 2
+["pdflatex"] 1731623136.94001 "main.tex" "main.pdf" "main" 1731623137.41151 2
   "/etc/texmf/web2c/texmf.cnf" 1704117390.62776 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/julia/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.600pk" 1708449225.68676 29452 32d0cc5bad73e44566a5faea56b28230 ""
   "/home/julia/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk" 1708948773.48421 36828 c70421afefc5397cc5a4e5b03a367176 ""
@@ -113,6 +113,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg" 1279039959 678 4792914a8f45be57bb98413425e4c7af ""
   "/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex" 1632168149 95525 6fd0552101a6b1f9b7a84b402ec435ba ""
   "/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty" 1632168149 14690 c2c754218a7108db7823a4839c1bc3cd ""
+  "/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty" 1615845910 6149 2398eec4faa1ee24ff761581e580ecf1 ""
   "/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty" 1137110565 4087 636308456f60d2b31cbf97867db5708d ""
   "/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657483315 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
@@ -123,16 +124,18 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1725567922.99742 130486 21bc5e8519b511467dceb304d5a8239d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1725567951 9929311 bbb592d9d50dcddb4da8ad5056ee032d ""
-  "3.7.1.tex" 1731602565.00181 17152 42edb43b0d79ede87d8ec2d54983fcfb ""
+  "3.7.1.tex" 1731623134.30389 18699 b7e31c56fab8a64d8d25b0e7b03be90e ""
   "images/plot1.png" 1731529540.51125 28108 abca8fcb0a5a1fbd688ddb9eeb682e07 ""
   "images/plot2.png" 1731538470.16182 17209 e3f35365c2f3dd29d00a0eea4eef55a3 ""
   "images/plot3.png" 1731579428.4003 30062 42fa8d0dba036e488ccffba316c58dcc ""
-  "images/plot4.png" 1731602510.87391 15544 e2543328ff31790490bead4b0f7e7724 ""
+  "images/plot4.png" 1731615874.34156 15205 e79989a6a8aa4cee555b315486bf81c7 ""
+  "images/plot5.png" 1731615879.03254 22945 4864200dfebdc90f1e3e189ee88e15e8 ""
+  "images/plot6.png" 1731620976.75606 21513 5fcd821e80000f13387a4245985ecd7b ""
   "images/setup.png" 1731521602.55485 40293 e385a68ba6cbe9bbe7760c0fb2f8b592 ""
   "images/theory.png" 1731397855.26565 19389 ed5f464c48e99a7fcd3c680fa0208e8b ""
-  "main.aux" 1731602567.73175 3111 e8f1b518f3662f34a602d34a46bba86a "pdflatex"
-  "main.out" 1731602567.59875 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1731526342.53564 663 a21eea21a9fa9c11753aca9bcd6f07e7 ""
+  "main.aux" 1731623137.34187 3818 dce7c00da1787a4387bc0217c0ed3824 "pdflatex"
+  "main.out" 1731623137.17987 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1731612524.57541 685 126b7b97e52a64a0fe4b96d7189a7215 ""
   (generated)
   "main.aux"
   "main.log"
