@@ -9,7 +9,7 @@ if [ -z "$LAB_NAME" ]; then
     exit
 fi
 
-DIR_NAME="2_sem/laba_$LAB_NAME"
+DIR_NAME="4_sem/laba_$LAB_NAME"
 if [ -d "$DIR_NAME" ]; then
     echo "Directory $DIR_NAME is already exists"
     exit
@@ -17,14 +17,14 @@ fi
 
 mkdir  -p $DIR_NAME
 
-cp laba_name/name.ipynb $DIR_NAME/$LAB_NAME.ipynb
+# cp laba_name/name.ipynb $DIR_NAME/$LAB_NAME.ipynb
 
 cp -r laba_name/name_tex/ $DIR_NAME/tex/
 
 mv $DIR_NAME/tex/name_tex.tex $DIR_NAME/tex/$LAB_NAME.tex
 
 if [ -z "$2" ]; then
-    echo "\title{\textbf{Лабораторная работа $LAB_NAME}\\[2pt]}
+    echo "\title{\textbf{Лабораторная работа $LAB_NAME}}\\\\ [2pt]}
 \date{\today}
 \author{Татаурова Юлия Романовна}
 
@@ -33,7 +33,7 @@ if [ -z "$2" ]; then
 \input{$LAB_NAME.tex}
 \end{document}" >> $DIR_NAME/tex/main.tex
 else
-     echo "\title{\textbf{Лабораторная работа $LAB_NAME}\\[2pt]{$NAME}}
+     echo "\title{\textbf{Лабораторная работа $LAB_NAME}\\\\ [2pt]{$NAME}}
 \date{\today}
 \author{Татаурова Юлия Романовна}
 

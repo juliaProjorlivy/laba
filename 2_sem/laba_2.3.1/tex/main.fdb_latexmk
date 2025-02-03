@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1714999125 "main.tex" "main.pdf" "main" 1714999126 2
+["pdflatex"] 1715593689 "main.tex" "main.pdf" "main" 1715593690 2
   "/etc/texmf/web2c/texmf.cnf" 1704117390 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/julia/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.600pk" 1708449225 29452 32d0cc5bad73e44566a5faea56b28230 ""
   "/home/julia/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk" 1708948773 36828 c70421afefc5397cc5a4e5b03a367176 ""
@@ -44,6 +44,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1248133631 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf" 1496785618 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
@@ -116,13 +117,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1693172360 40357 c95f5d5e031b5c7040b426833c11f2e0 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1704117847 130486 21bc5e8519b511467dceb304d5a8239d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1710511502 6570106 6ca67315afd7bff241407c86453aabe0 ""
-  "2.3.1.tex" 1714999124 5238 58cd72c92041c90bf5b1b03bbb8faebc ""
-  "ALLPLOT.png" 1714684730 21925 225fbfec5ec0f9e28bde584d3db203b4 ""
-  "main.aux" 1714999126 1657 ff351f303d201a135a0a1ae69760edd7 "pdflatex"
-  "main.out" 1714999126 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "2.3.1.tex" 1715593689 6501 78f5359103e16bbdc50adae7573bfee0 ""
+  "ALLPLOT.png" 1715107368 33371 3a0dba5698e3f7b430f00917e8f1d263 ""
+  "main.aux" 1715593690 1749 3212a7b401cc60cf7476f9072cb787db "pdflatex"
+  "main.out" 1715593689 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "main.tex" 1713872061 655 cc3d2112fa7e907b3cd71cc4141a9c19 ""
-  "plotBetter1.png" 1714684724 17725 f8961e10cede754c490dacb627fd4a30 ""
-  "plotBetter2.png" 1714684924 17500 2d8dd548290cb26ca9635003cb7d2365 ""
+  "plotBetter1.png" 1715107360 20248 5f97ae78864ad0918e747c37bef334e1 ""
+  "plotBetter2.png" 1715107363 19990 1575ae0f82deeb1a5d0515fc5cccdd81 ""
   "setup.png" 1713869950 56752 24b699934b915a48c3ae8d669f3ae060 ""
   (generated)
   "main.aux"

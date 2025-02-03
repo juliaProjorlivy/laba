@@ -53,7 +53,7 @@ P - P_{\text{пр}} = (P_0 - P_{\text{пр}})\exp{\left (-\frac{W}{V}t\right )}
 трубки. \\\indent 
 Для количества газа, протекающего через трубку при высоком вакууме:
 \begin{equation}
-    \frac{d(PV)}{dt} = \frac{4}{3}r^3 \sqrt{\frac{2\pi RT}{\mu}} \frac{P_2 - P_1}{L}
+    \frac{d(PV)}{dt} = \frac{4}{3}r^3 \sqrt{\frac{2\pi RT}{\mu}} \frac{P_2 - P_1}{L}\label{eq:six_eq}
 \end{equation}
 Тогда пропускная способность трубы ($P = P_2, P_1 \ll P_2$):
 \begin{equation}
@@ -80,11 +80,11 @@ P - P_{\text{пр}} = (P_0 - P_{\text{пр}})\exp{\left (-\frac{W}{V}t\right )}
 \begin{figure*}[h!]
     \begin{minipage}{0.5\textwidth}
         \includegraphics[width=10cm]{plotBetter1.png}
-        \captionof{figure}{$\ln P (t); W = 22.7$ $\frac{\text{см}^3}{c}$}
+        \captionof{figure}{$\ln P (t); W = 463$ $\frac{\text{см}^3}{c}$}
     \end{minipage}
     \begin{minipage}{0.5\textwidth}
         \includegraphics[width=10cm]{plotBetter2.png}
-        \captionof{figure}{$\ln P (t); W = 21.4$ $\frac{\text{см}^3}{c}$}
+        \captionof{figure}{$\ln P (t); W = 470$ $\frac{\text{см}^3}{c}$}
     \end{minipage}
 
     \begin{minipage}{0.99\textwidth}
@@ -94,4 +94,25 @@ P - P_{\text{пр}} = (P_0 - P_{\text{пр}})\exp{\left (-\frac{W}{V}t\right )}
         и улучшении вакуума}
     \end{minipage}
 \end{figure*}
-%
+
+Теперь оценим величину потока газа $Q_{\text{н}}$, поступающего из насоса
+назад в откачиваемую систему:
+\begin{align}
+    V_{\text{вв}}dP = (Q_{\text{д}} + Q_{\text{и}})\\ 
+    W P_{\text{пр}} = Q_{\text{д}} + Q_{\text{и}} + Q_{\text{н}}
+\end{align}
+Откуда $Q_{\text{н}} = 2.47$ $\frac{\text{см}^3 \cdot \text{Па}}{c}$.\\ 
+После открывания крана $K_6$ мы ввели искуственную течь. Вакуум ухудшится. 
+Установившееся давление $P_{\text{уст}} = 1.3\cdot 10^{-4}$ мм.рт.ст.\\ 
+Давление со стороны форвакуумной части в свою очередь $P_{\text{фв}} = 3.8\cdot 10^{-3}$ мм.рт.ст.\\
+Теперь рассчитаем производительность насоса по формуле:
+\begin{align}
+    P_{\text{уст}} W = P_{\text{пр}} W + \frac{d(PV)}{dt}
+\end{align}
+Последнее слагаемое вычисляется по $\ref{eq:six_eq}$ Откуда:
+\begin{equation}
+    W = \frac{d(PV)}{dt} \cdot \frac{1}{P_{\text{уст}} - P_{\text{пр}}} = 33 \text{ см}^3 / \text{с} 
+\end{equation}
+
+
+

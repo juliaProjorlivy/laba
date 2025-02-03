@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1732987612.30243 "main.tex" "main.pdf" "main" 1732987613.26201 2
+["pdflatex"] 1733310280.88813 "main.tex" "main.pdf" "main" 1733310281.84082 2
   "/etc/texmf/web2c/texmf.cnf" 1704117390.62776 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/julia/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.600pk" 1708449225.68676 29452 32d0cc5bad73e44566a5faea56b28230 ""
   "/home/julia/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600pk" 1704117849.61447 45148 9f107a1bab0bb5cb5908848703f071f5 ""
@@ -121,13 +121,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1725567922.99742 130486 21bc5e8519b511467dceb304d5a8239d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1725567951 9929311 bbb592d9d50dcddb4da8ad5056ee032d ""
-  "3.3.4.tex" 1732987609.36851 8547 f4de7a1ef640ec2382c5d3d5322bd088 ""
-  "images/plot1.png" 1732920296.15842 18582 8f97f5c4cb172de7cb1714c6cfef3853 ""
-  "images/plot2.png" 1732986301.85937 29264 f9afc1d4d36ab17282c4761da7d72b71 ""
+  "3.3.4.tex" 1733309764.68954 8549 b70ec4eadfebb2c411b4121fed01f570 ""
+  "images/plot1.png" 1733310151.97049 18582 8f97f5c4cb172de7cb1714c6cfef3853 ""
+  "images/plot2.png" 1733310280.81826 29264 f9afc1d4d36ab17282c4761da7d72b71 ""
   "images/plot3.png" 1732986291.77147 22081 67cda41cf964093405ac838f2c67a153 ""
   "images/setup.png" 1732911135.80448 27362 e2bb4f51108ba03e005eeaf46cfadefb ""
-  "main.aux" 1732987612.98876 3326 3b9fdaaa73b4ee986ce50c85ee6072f2 "pdflatex"
-  "main.out" 1732987612.8068 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.aux" 1733310281.56941 3326 3b9fdaaa73b4ee986ce50c85ee6072f2 "pdflatex"
+  "main.out" 1733310281.38037 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "main.tex" 1732912033.39485 719 9675d65074a0d2a8af47df851a55ac82 ""
   (generated)
   "main.aux"
