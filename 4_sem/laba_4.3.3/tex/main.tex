@@ -1,11 +1,50 @@
-\documentclass[12pt]{article}
-\usepackage[top=1cm, bottom=3cm, right=2cm, left=2cm]{geometry}
-\usepackage{amsfonts, amssymb, amsmath, hyperref}
-\usepackage{graphicx, float}
-\usepackage[T1, T2A]{fontenc}% T2A for Cyrillic font encoding
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{amssymb,amsmath} %math symbols
+
+\usepackage[margin=2cm]{geometry} %paper geometry
+
+\usepackage[T1, T2A]{fontenc} % T2A for Cyrillic font encoding
 \usepackage[english, russian]{babel}
-\usepackage[justification=centering]{caption}
-\usepackage[caption]
+\usepackage[russian]{babel} %docment in russian-style
+\usepackage[utf8]{inputenc}
+\usepackage[unicode]{hyperref} %links inside of the text
+\usepackage[pdftex]{graphicx} %includegraphics pictures
+\usepackage{cmlgc} %bold text
+
+\usepackage{array} %arrays
+
+\usepackage{wrapfig}
+\usepackage{array}
+\usepackage{lipsum}
+\usepackage{esvect}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\definecolor{linkcolor}{HTML}{799B03} % цвет ссылок
+\definecolor{urlcolor}{HTML}{799B03} % цвет гиперссылок
+ 
+\hypersetup{pdfstartview=FitH,  linkcolor=linkcolor,urlcolor=urlcolor, colorlinks=true}
+ 
+\usepackage{subfig}
+\usepackage{calc}
+\usepackage{pgfplots,tikz,circuitikz}
+\usepackage{pgfplotstable}
+\usepackage{tkz-euclide}
+
+\usepackage{centernot}
+\usepackage{cancel}
+
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{mathtext}
+\usepackage[T1,T2a]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english, bulgarian, russian]{babel}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage[export]{adjustbox}
+\usepackage[left=2cm,right=2cm,
+    top=2cm,bottom=2cm,bindingoffset=0cm]{geometry}
 
 \pagestyle{empty}
 
