@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1746372610.86956 "main.tex" "main.pdf" "main" 1746372611.43255 2
+["pdflatex"] 1746378114.69601 "main.tex" "main.pdf" "main" 1746378115.27876 2
   "/etc/texmf/web2c/texmf.cnf" 1704117390.62776 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/julia/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labi1200.600pk" 1744311419.5933 42356 d227e31c67c6039e31e694b8266690c7 ""
   "/home/julia/.texlive2023/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labi1440.600pk" 1746133256.71011 52704 aa8250fb61806a9005f16040218c64a2 ""
@@ -137,7 +137,7 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1725567922.99742 130486 21bc5e8519b511467dceb304d5a8239d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1725567951 9929311 bbb592d9d50dcddb4da8ad5056ee032d ""
-  "4.3.1.tex" 1746372609.93919 16414 181282a426bfbe94a99cc83d0d41962d ""
+  "4.3.1.tex" 1746378114.54036 21531 7a5b3b5a5693c69c46c4158ee08e7ae9 ""
   "images/A_theory.png" 1745012641.12047 28225 324f4a2bc6e35ace7487dc484915ae61 ""
   "images/fraungofer_1.png" 1746349118.94915 4829 9d9742946dd08456d395c1a7d8486c72 ""
   "images/fraungofer_2.png" 1746349147.49229 11422 b407db6c0ff94c8e37240a1005cbd2e5 ""
@@ -148,10 +148,11 @@
   "images/plot_A.png" 1746366338.62618 43184 e310055cce87a79f418af43702827f43 ""
   "images/plot_B.png" 1746371411.36975 48095 39ea3a67f03a2d88626bd82edebe98ff ""
   "images/setup.png" 1745011716.01141 33849 4afdbd431e4e7735ad889b8368269623 ""
+  "images/setup4.png" 1746375479.38971 29440 53229ea9fccf6ed0f7be713c236820be ""
   "images/setup_2.png" 1746367229.66895 19092 5706df30ec1eea25bd297eda5809a914 ""
   "images/shuster_zones.png" 1746345567.62055 9847 10c3be13bd0fe9abf0c9ded39e1c5670 ""
-  "main.aux" 1746372611.35721 3999 42e6456fff72ae870a162747966b18cc "pdflatex"
-  "main.out" 1746372611.11121 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.aux" 1746378115.20337 4709 8654c37c9d481be7a323a66e21fb51e1 "pdflatex"
+  "main.out" 1746378114.93637 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "main.tex" 1746360392.03319 782 03c8108f2274f6bbdddd283c153b0bcd ""
   (generated)
   "main.aux"
